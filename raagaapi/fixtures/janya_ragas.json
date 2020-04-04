@@ -1,0 +1,2546 @@
+[
+    {
+        "model": "raagaapi.raga",
+        "pk": 73,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "AHiri",
+            "format_name": "Ahiri",
+            "arohanam": "S R1 S G3 M1 P D1 N2 S",
+            "avarohanam": "S N2 D1 P M1 G3 R1 S",
+            "melakarta": 8
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 74,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "asAvEri",
+            "format_name": "Asaveri",
+            "arohanam": "S R1 M1 P D1 S",
+            "avarohanam": "S N2 S P D1 M1 P R1 G2 R1 S",
+            "melakarta": 8
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 75,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "bhUpALam",
+            "format_name": "Bhupalam",
+            "arohanam": "S R1 G2 P D1 S",
+            "avarohanam": "S D1 P G2 R1 S",
+            "melakarta": 8
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 76,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "dhanyAsi",
+            "format_name": "Dhanyasi",
+            "arohanam": "S G2 M1 P N2 S",
+            "avarohanam": "S N2 D1 P M1 G2 R1 S",
+            "melakarta": 8
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 77,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "punnAgavarALi",
+            "format_name": "Punnagavarali",
+            "arohanam": "N2 , S R1 G2 M1 P D1 N2",
+            "avarohanam": "N2 D1 P M1 G2 R1 S N2 ,",
+            "melakarta": 8
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 78,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "sindhu bhairavi",
+            "format_name": "Sindhubhairavi",
+            "arohanam": "S R2 G2 M1 G2 P D1 N2 S",
+            "avarohanam": "N2 D1 P M1 G2 R1 S N2 S",
+            "melakarta": 10
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 79,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "kalagada",
+            "format_name": "Kalagada",
+            "arohanam": "S R1 G3 P D1 N1 S",
+            "avarohanam": "S N1 D1 P G3 R1 S",
+            "melakarta": 13
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 80,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "vasanthabhairavi",
+            "format_name": "Vasanthabhairavi",
+            "arohanam": "S R1 G3 M1 D1 N2 S",
+            "avarohanam": "S N2 D1 M1 P M1 G3 R1 S",
+            "melakarta": 14
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 81,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "ardhradhesi",
+            "format_name": "Ardhradhesi",
+            "arohanam": "S R1 G3 M1 P D1 S N3 S",
+            "avarohanam": "S D1 P M1 G3 R1 S",
+            "melakarta": 15
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 82,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "bowLi",
+            "format_name": "Bowli",
+            "arohanam": "S R1 G3 P D1 S",
+            "avarohanam": "S N3 D1 P G3 R1 S",
+            "melakarta": 15
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 83,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "gowLa",
+            "format_name": "Gowla",
+            "arohanam": "S R1 M1 P N3 S",
+            "avarohanam": "S N3 P M1 R1 G3 M1 R1 S",
+            "melakarta": 15
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 84,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "gowLipanthu",
+            "format_name": "Gowlipanthu",
+            "arohanam": "S R1 M1 P N3 S",
+            "avarohanam": "S N3 D1 P M1 D1 M1 G3 R1 S",
+            "melakarta": 15
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 85,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "gowri",
+            "format_name": "Gowri",
+            "arohanam": "S R1 M1 P N3 S",
+            "avarohanam": "S N3 D1 P M1 G3 R1 S",
+            "melakarta": 15
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 86,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "gujjari",
+            "format_name": "Gujjari",
+            "arohanam": "S R1 G3 M1 P D1 N3 S",
+            "avarohanam": "S D1 N3 P M1 G3 R1 S",
+            "melakarta": 15
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 87,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "gumma kAmbhoji",
+            "format_name": "Gummakambhoji",
+            "arohanam": "S R1 G3 P D1 N3 D1 S",
+            "avarohanam": "S N3 D1 P M1 G3 R1 S",
+            "melakarta": 15
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 88,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "gundhakriya",
+            "format_name": "Gundhakriya",
+            "arohanam": "S R1 M1 P N3 S",
+            "avarohanam": "S N3 P D1 P M1 G3 R1 S",
+            "melakarta": 15
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 89,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "jaganmOhini",
+            "format_name": "Jaganmohini",
+            "arohanam": "S G3 M1 P N3 S",
+            "avarohanam": "S N3 P M1 G3 R1 S",
+            "melakarta": 15
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 90,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "kannadaban'gALa",
+            "format_name": "Kannadabangala",
+            "arohanam": "S R1 M1 G3 M1 P D1 S",
+            "avarohanam": "S D1 P M1 G3 R1 S",
+            "melakarta": 15
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 91,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "kRushNaveNi",
+            "format_name": "Krushnaveni",
+            "arohanam": "S R1 G3 M1 P N3 S",
+            "avarohanam": "S N3 P M1 G3 R1 S",
+            "melakarta": 15
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 92,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "lalithA",
+            "format_name": "Lalitha",
+            "arohanam": "S R1 G3 M1 D2 N3 S",
+            "avarohanam": "S N3 D2 M1 G3 R1 S",
+            "melakarta": 15
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 93,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "malaHari",
+            "format_name": "Malahari",
+            "arohanam": "S R1 M1 P D1 S",
+            "avarohanam": "S D1 P M1 G3 R1 S",
+            "melakarta": 15
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 94,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "mallikA vasantham",
+            "format_name": "Mallikavasantham",
+            "arohanam": "S G3 M1 P N3 S",
+            "avarohanam": "S N3 D1 P M1 G3 R1 S",
+            "melakarta": 15
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 95,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "mangaLakaishiki",
+            "format_name": "Mangalakaishiki",
+            "arohanam": "S M1 G3 M1 P M1 D1 N3 S",
+            "avarohanam": "S N3 D1 P M1 G3 R1 S",
+            "melakarta": 15
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 96,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "mEchabowLi",
+            "format_name": "Mechabowli",
+            "arohanam": "S R1 G3 P D1 S",
+            "avarohanam": "S D1 P M1 G3 R1 S",
+            "melakarta": 15
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 97,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "mEGaranjani",
+            "format_name": "Megaranjani",
+            "arohanam": "S R1 G3 M1 N3 S",
+            "avarohanam": "S N3 M1 G3 R1 S",
+            "melakarta": 15
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 98,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "nAdhanAmakriya",
+            "format_name": "Nadhanamakriya",
+            "arohanam": "S R1 G3 M1 P D1 N3",
+            "avarohanam": "N3 D1 P M1 G3 R1 S N3",
+            "melakarta": 15
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 99,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "pAdi",
+            "format_name": "Padi",
+            "arohanam": "S R1 M1 P N3 S",
+            "avarohanam": "S N3 P D1 P M1 R1 S",
+            "melakarta": 15
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 100,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "pharaz",
+            "format_name": "Pharaz",
+            "arohanam": "S G3 M1 P D1 N3 S",
+            "avarohanam": "S N3 D1 P M1 G3 R1 S",
+            "melakarta": 15
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 101,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "pUrvi",
+            "format_name": "Purvi",
+            "arohanam": "S R1 G3 M1 P D1 N3 D1 S",
+            "avarohanam": "S N3 D1 P M1 D1 M1 G3 R1 S",
+            "melakarta": 15
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 102,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "rEvagupthi",
+            "format_name": "Revagupthi",
+            "arohanam": "S R1 G3 P D1 S",
+            "avarohanam": "S D1 P G3 R1 S",
+            "melakarta": 15
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 103,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "sAran'ganAtha",
+            "format_name": "Saranganatha",
+            "arohanam": "S R1 M1 P D1 S",
+            "avarohanam": "S N3 S D1 P M1 G3 R1 S",
+            "melakarta": 15
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 104,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "sAvEri",
+            "format_name": "Saveri",
+            "arohanam": "S R1 M1 P D1 S",
+            "avarohanam": "S N3 D1 P M1 G3 R1 S",
+            "melakarta": 15
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 105,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "sindhu rAmakriya",
+            "format_name": "Sindhuramakriya",
+            "arohanam": "S G3 M1 P D1 N3 S",
+            "avarohanam": "S N3 P D1 P M1 G3 S",
+            "melakarta": 15
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 106,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "thakka  (a)",
+            "format_name": "Thakkaa",
+            "arohanam": "S R1 S M1 G3 M1 D1 N3 S",
+            "avarohanam": "S N3 P M1 G 3 M1 P R1 G3 S",
+            "melakarta": 15
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 107,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "thakka  (b)",
+            "format_name": "Thakkab",
+            "arohanam": "S G3 M1 P M1 D1 N3 S",
+            "avarohanam": "S N3 D1 P M1 G3 R1 S",
+            "melakarta": 15
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 108,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "bindhumAlini",
+            "format_name": "Bindhumalini",
+            "arohanam": "S G3 R1 G3 M1 P N2 S",
+            "avarohanam": "S N2 S D2 P G3 R1 S",
+            "melakarta": 16
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 109,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "kalAvathi",
+            "format_name": "Kalavathi",
+            "arohanam": "S R1 M1 P D2 S",
+            "avarohanam": "S D2 P M1 G3 S R1 S",
+            "melakarta": 16
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 110,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "malayamArutham",
+            "format_name": "Malayamarutham",
+            "arohanam": "S R1 G3 P D2 N2 S",
+            "avarohanam": "S N2 D2 P G3 R1 S",
+            "melakarta": 16
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 111,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "valachi",
+            "format_name": "Valachi",
+            "arohanam": "S G3 P D2 N2 S",
+            "avarohanam": "S N2 D2 P G3 S",
+            "melakarta": 16
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 112,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "vegavAHini",
+            "format_name": "Vegavahini",
+            "arohanam": "S R1 G3 M1 P D2 N2 D2 S",
+            "avarohanam": "S N2 D2 P M1 G3 R1 S",
+            "melakarta": 16
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 113,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "bhairavam",
+            "format_name": "Bhairavam",
+            "arohanam": "S R1 G3 M1 P D2 N3 S",
+            "avarohanam": "S D2 P M1 G3 R1 S",
+            "melakarta": 17
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 114,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "sowrAshtram",
+            "format_name": "Sowrashtram",
+            "arohanam": "S R1 G3 M1 P M1 D2 N3 S",
+            "avarohanam": "S N3 D2 N2 D2 P M1 G3 R1 S",
+            "melakarta": 17
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 115,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "supradhIpam",
+            "format_name": "Supradhipam",
+            "arohanam": "S R1 M1 P D2 S",
+            "avarohanam": "S N3 D2 P M1 G3 M1 R1 S",
+            "melakarta": 17
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 116,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "vasanthA",
+            "format_name": "Vasantha",
+            "arohanam": "S M1 G3 M1 D2 N3 S",
+            "avarohanam": "S N3 D2 M1 G3 R1 S",
+            "melakarta": 17
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 117,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "pUrnalalitha",
+            "format_name": "Purnalalitha",
+            "arohanam": "S G2 R2 M1 P S",
+            "avarohanam": "S N1 D1 P M1 G2 R2 S",
+            "melakarta": 19
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 118,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "amrithavAHini",
+            "format_name": "Amrithavahini",
+            "arohanam": "S R2 M1 P D1 N2 S",
+            "avarohanam": "S N2 D1 M1 G2 R2 S",
+            "melakarta": 20
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 119,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "Anandhabhairavi",
+            "format_name": "Anandhabhairavi",
+            "arohanam": "S G2 R2 G2 M1 P D2 P N2 S",
+            "avarohanam": "S N2 D2 P M1 G2 R2 S",
+            "melakarta": 20
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 120,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "bhairavi",
+            "format_name": "Bhairavi",
+            "arohanam": "S R2 G2 M1 P D2 N2 S",
+            "avarohanam": "S N2 D1 P M1 G2 R2 S",
+            "melakarta": 20
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 121,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "Gantha",
+            "format_name": "Gantha",
+            "arohanam": "S G2 R2 G2 M1 P D2 P N2 D2 N2 S",
+            "avarohanam": "S N2 D2 P M1 G2 R2 S",
+            "melakarta": 20
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 122,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "gopikavasantham",
+            "format_name": "Gopikavasantham",
+            "arohanam": "S M1 P N2 D1 N2 D1 S",
+            "avarohanam": "S N2 D1 P M1 G2 S",
+            "melakarta": 20
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 123,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "HindhoLam",
+            "format_name": "Hindholam",
+            "arohanam": "S G2 M1 D1 N2 S",
+            "avarohanam": "S N2 D1 M1 G2 S",
+            "melakarta": 20
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 124,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "jayanthashrI",
+            "format_name": "Jayanthashri",
+            "arohanam": "S G2 M1 D1 N2 S",
+            "avarohanam": "S N2 D1 M1 P M1 G2 S",
+            "melakarta": 20
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 125,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "jingla",
+            "format_name": "Jingla",
+            "arohanam": "S R2 G2 M1 P D1 N2 D1 P S",
+            "avarohanam": "S N2 D1 P M1 G2 R2 S",
+            "melakarta": 20
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 126,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "mAnji",
+            "format_name": "Manji",
+            "arohanam": "S R2 G2 M1 P D2 N2 S",
+            "avarohanam": "S N2 D1 P M1 G2 R2 S",
+            "melakarta": 20
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 127,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "mArgaHindhoLam",
+            "format_name": "Margahindholam",
+            "arohanam": "S R2 G2 M1 P D2 N2 S",
+            "avarohanam": "S N2 D2 M1 G2 S",
+            "melakarta": 20
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 128,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "pUrNashajja",
+            "format_name": "Purnashajja",
+            "arohanam": "S R2 G2 M1 N2 N2 S",
+            "avarohanam": "S N2 P M1 G2 R2 S",
+            "melakarta": 20
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 129,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "sAramathi",
+            "format_name": "Saramathi",
+            "arohanam": "S R2 G2 M1 P D1 N2 S",
+            "avarohanam": "S N2 D1 M1 G2 S",
+            "melakarta": 20
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 130,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "sudhdha dhanyasi",
+            "format_name": "Sudhdhadhanyasi",
+            "arohanam": "S G2 M1 P N2 S",
+            "avarohanam": "S N2 P M1 G2 S",
+            "melakarta": 20
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 131,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "sudhdha dhesi",
+            "format_name": "Sudhdhadhesi",
+            "arohanam": "S R2 M1 P D1 N2 S",
+            "avarohanam": "S N2 D1 P M1 G2 R2 S",
+            "melakarta": 20
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 132,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "kiraNAvaLi",
+            "format_name": "Kiranavali",
+            "arohanam": "S R2 G2 M1 P D1 N3 S",
+            "avarohanam": "S P M1 G2 R2 S",
+            "melakarta": 21
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 133,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "kalyANa vasantham",
+            "format_name": "Kalyanavasantham",
+            "arohanam": "S G2 M1 D1 N3 S",
+            "avarohanam": "S N3 D1 P M1 G2 R2 S",
+            "melakarta": 21
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 134,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "AbhEri",
+            "format_name": "Abheri",
+            "arohanam": "S G2 M1 P N2 S",
+            "avarohanam": "S N2 D2 P M1 G2 R2 S",
+            "melakarta": 22
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 135,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "abhOgi",
+            "format_name": "Abhogi",
+            "arohanam": "S R2 G2 M1 D2 S",
+            "avarohanam": "S D2 M1 G2 R2 S",
+            "melakarta": 22
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 136,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "AndhOLika",
+            "format_name": "Andholika",
+            "arohanam": "S R2 M1 P N2 S",
+            "avarohanam": "S N2 D2 M1 R2 S",
+            "melakarta": 22
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 137,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "bAgEshrI",
+            "format_name": "Bageshri",
+            "arohanam": "S G2 M1 D2 N2 S",
+            "avarohanam": "S N2 D2 M1 P D2 G2 M1 R2 S",
+            "melakarta": 22
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 138,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "brindhAvanasAran'ga",
+            "format_name": "Brindhavanasaranga",
+            "arohanam": "S R2 M1 P N3 S",
+            "avarohanam": "S N2 P M1 R2 G2 S",
+            "melakarta": 22
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 139,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "chiththaranjani",
+            "format_name": "Chiththaranjani",
+            "arohanam": "S R2 G2 M1 P D2 N2",
+            "avarohanam": "N2 D2 P M1 G2 R2 S N2.",
+            "melakarta": 22
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 140,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "dharbAru",
+            "format_name": "Dharbaru",
+            "arohanam": "S R2 M1 P D2 N2 S",
+            "avarohanam": "R2 S N2 S D2 P M1 R2 G2 G2 R2 S",
+            "melakarta": 22
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 141,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "dhEvAmRuthavarshiNi",
+            "format_name": "Dhevamruthavarshini",
+            "arohanam": "S R2 G2 M1 N2 D2 N2 S",
+            "avarohanam": "S N2 D2 P M1 G2 R2 S",
+            "melakarta": 22
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 142,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "dhEvakriya",
+            "format_name": "Dhevakriya",
+            "arohanam": "S R2 M1 P N2 S",
+            "avarohanam": "S N2 D2 N2 P M1 G2 R2 S",
+            "melakarta": 22
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 143,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "dhEvamanOHari",
+            "format_name": "Dhevamanohari",
+            "arohanam": "S R2 M1 P D2 N2 S",
+            "avarohanam": "S N2 D2 N2 P M1 R2 S",
+            "melakarta": 22
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 144,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "dhilipakam",
+            "format_name": "Dhilipakam",
+            "arohanam": "S R2 G2 R2 M1 P N2 D2 N2 P D2 N2 S",
+            "avarohanam": "S N2 D2 P M1 G2 R2 S",
+            "melakarta": 22
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 145,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "HindhoLavasantha",
+            "format_name": "Hindholavasantha",
+            "arohanam": "S G2 M1 P D2 N2 D2 S",
+            "avarohanam": "S N2 D2 P M1 D2 M1 G2 S",
+            "melakarta": 22
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 146,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "HindhusthAni kApi",
+            "format_name": "Hindhusthanikapi",
+            "arohanam": "S R2 M1 P N3 S",
+            "avarohanam": "S N2 D2 N2 P M1 G2 R2 S",
+            "melakarta": 22
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 147,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "HusEni",
+            "format_name": "Huseni",
+            "arohanam": "S R2 G2 M1 P N2 D2 N2 S",
+            "avarohanam": "S N2 D1 P M1 G2 R2 S",
+            "melakarta": 22
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 148,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "jayamanOHari",
+            "format_name": "Jayamanohari",
+            "arohanam": "S R2 G2 M1 D2 S",
+            "avarohanam": "S N2 D2 M1 G2 R2 S",
+            "melakarta": 22
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 149,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "jayanArAyaNi",
+            "format_name": "Jayanarayani",
+            "arohanam": "S R2 G2 M1 P D2 S",
+            "avarohanam": "S N2 D2 P M1 G2 R2 S",
+            "melakarta": 22
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 150,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "jayanthasEna",
+            "format_name": "Jayanthasena",
+            "arohanam": "S G2 M1 P D2 S",
+            "avarohanam": "S N2 D2 P M1 P M1 G2 S",
+            "melakarta": 22
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 151,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "kAnadA",
+            "format_name": "Kanada",
+            "arohanam": "S R2 G2 M1 D N2 S",
+            "avarohanam": "S N2 P M1 G2 M1 R2 S",
+            "melakarta": 22
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 152,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "kalAniDhi",
+            "format_name": "Kalanidhi",
+            "arohanam": "SR2G2M1SPM1D2N2S",
+            "avarohanam": "S N2 D2 P M1 G2 R2 S",
+            "melakarta": 22
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 153,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "kannadagowLa",
+            "format_name": "Kannadagowla",
+            "arohanam": "S R2 G2 M1 P N2 S",
+            "avarohanam": "S N2 D2 P M1 G2 S",
+            "melakarta": 22
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 154,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "kApijingla",
+            "format_name": "Kapijingla",
+            "arohanam": "S N2 S R2 G2 M1",
+            "avarohanam": "M1 G2 R2 S N2 D2 N2 S",
+            "melakarta": 22
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 155,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "karnAtaka kApi",
+            "format_name": "Karnatakakapi",
+            "arohanam": "S R2 G2 M1 R2 P M1 P D2 N2 S",
+            "avarohanam": "S N2 D2 P M1 G2 M1 R2 S",
+            "melakarta": 22
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 156,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "mAlavashrI",
+            "format_name": "Malavashri",
+            "arohanam": "S G2 M1 P N2 D2 N2 P D2 N2 S",
+            "avarohanam": "S N2 D2 P M1 G2 S",
+            "melakarta": 22
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 157,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "madhyamAvathi",
+            "format_name": "Madhyamavathi",
+            "arohanam": "S R2 M1 P N2 S",
+            "avarohanam": "S N2 P M1 R2 S",
+            "melakarta": 22
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 158,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "maNirangu",
+            "format_name": "Manirangu",
+            "arohanam": "S R2 M1 P N2 S",
+            "avarohanam": "S N2 P M1 G2 R2 S",
+            "melakarta": 22
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 159,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "manjari",
+            "format_name": "Manjari",
+            "arohanam": "S G2 R2 G2 M1 P N2 D2 N2 S",
+            "avarohanam": "S N2 D2 P M1 G2 R2 S",
+            "melakarta": 22
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 160,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "manOHari",
+            "format_name": "Manohari",
+            "arohanam": "S G2 R2 G2 M1 P D2 S",
+            "avarohanam": "S D2 P M1 G2 R2 S",
+            "melakarta": 22
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 161,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "muKAri",
+            "format_name": "Mukari",
+            "arohanam": "S R2 M1 P N2 D2 S",
+            "avarohanam": "S N2 D1 P M1 G2 R2 S",
+            "melakarta": 22
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 162,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "nAdhachinthAmaNi *",
+            "format_name": "Nadhachinthamani",
+            "arohanam": "S G2 M1 P N2 D2 N2 S",
+            "avarohanam": "S N2 D2 P M1 G2 R2 G2 S",
+            "melakarta": 22
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 163,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "nAdhatharan'gini",
+            "format_name": "Nadhatharangini",
+            "arohanam": "S P M1 R2 G2 R2 S",
+            "avarohanam": "S P N2 D2 P M1 G2 R2 S",
+            "melakarta": 22
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 164,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "nAyaki",
+            "format_name": "Nayaki",
+            "arohanam": "S R2 M1 P D2 N2 D2 P S",
+            "avarohanam": "S N2 D2 P M1 R2 G2 R2 S",
+            "melakarta": 22
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 165,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "phalamanjari",
+            "format_name": "Phalamanjari",
+            "arohanam": "S G2 M1 D2 S",
+            "avarohanam": "S N2 D2 P M1 G2 M1 R2 S",
+            "melakarta": 22
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 166,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "panchama rAga",
+            "format_name": "Panchamaraga",
+            "arohanam": "S R2 D2 P N2 S",
+            "avarohanam": "S N2 D2 P M1 G2 R2 S",
+            "melakarta": 22
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 167,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "pUrnashadjam",
+            "format_name": "Purnashadjam",
+            "arohanam": "S R2 G2 M1 N2 S",
+            "avarohanam": "S N2 P M1 G2 R2 S",
+            "melakarta": 22
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 168,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "pushpalathika",
+            "format_name": "Pushpalathika",
+            "arohanam": "S R2 G2 M1 P N2 S",
+            "avarohanam": "S N2 P M1 G2 R2 S",
+            "melakarta": 22
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 169,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "rIthigowLa",
+            "format_name": "Rithigowla",
+            "arohanam": "S G2 R2 G2 M1 N2 D2 M1 N2 N2 S",
+            "avarohanam": "S N2 D2 M1 G2 M1 P M1 G2 R2 S",
+            "melakarta": 22
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 170,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "rudhrapriya",
+            "format_name": "Rudhrapriya",
+            "arohanam": "S R2 G2 M1 P D2 N2 S",
+            "avarohanam": "S N2 P M1 G2 R2 S",
+            "melakarta": 22
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 171,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "sAlakabhairavi",
+            "format_name": "Salakabhairavi",
+            "arohanam": "S R2 M1 P D2 S",
+            "avarohanam": "S N2 D2 P M1 G2 R2 S",
+            "melakarta": 22
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 172,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "saindhavi",
+            "format_name": "Saindhavi",
+            "arohanam": "N2 D2 N2 S R2 G2 M1 P D2 N2",
+            "avarohanam": "D2 P M1 G2 R2 S N2 D2 N2 S",
+            "melakarta": 22
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 173,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "sidhdhasEna",
+            "format_name": "Sidhdhasena",
+            "arohanam": "S G2 R2 G2 M1 P D2 S",
+            "avarohanam": "S N2 D2 M1 P M1 R2 G2 R2 S",
+            "melakarta": 22
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 174,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "shrIrAga",
+            "format_name": "Shriraga",
+            "arohanam": "S R2 M1 P N2 S",
+            "avarohanam": "S N2 P D2 N2 P M1 R2 G2 R2 S",
+            "melakarta": 22
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 175,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "shrIranjani",
+            "format_name": "Shriranjani",
+            "arohanam": "S R2 G2 M1 D2 N2 S",
+            "avarohanam": "S N2 D2 M1 G2 R2 S",
+            "melakarta": 22
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 176,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "sudhdha ban'gALa",
+            "format_name": "Sudhdhabangala",
+            "arohanam": "S R2 M1 P D2 S",
+            "avarohanam": "S D2 P M1 R2 G2 R2 S",
+            "melakarta": 22
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 177,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "sudhdha dhanyAsi",
+            "format_name": "Sudhdhadhanyasi",
+            "arohanam": "S G2 M1 P N2 S",
+            "avarohanam": "S N2 P M1 G2 S",
+            "melakarta": 22
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 178,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "svarabhUshani",
+            "format_name": "Svarabhushani",
+            "arohanam": "S G2 M1 P D2 N2 S",
+            "avarohanam": "S N2 D2 P M1 R2 S",
+            "melakarta": 22
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 179,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "vasantha varALi 1",
+            "format_name": "Vasanthavarali",
+            "arohanam": "S R2 M1 P D3 N3",
+            "avarohanam": "N3 D3 P G2 R2 S N3",
+            "melakarta": 24
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 180,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "vasantha varALi 2",
+            "format_name": "Vasanthavarali",
+            "arohanam": "S R2 M1 P D3 N3",
+            "avarohanam": "N3 D3 P M G1 R S N",
+            "melakarta": 24
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 181,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "vIravasantham",
+            "format_name": "Viravasantham",
+            "arohanam": "S G2 R2 M1 P S",
+            "avarohanam": "S N3 D3 P M1 G2 R2 S",
+            "melakarta": 24
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 182,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "kamalAmanOHari",
+            "format_name": "Kamalamanohari",
+            "arohanam": "S G3 M1 P N3 S",
+            "avarohanam": "S N3 D1 P M1 G3 S",
+            "melakarta": 27
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 183,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "naLinakAnthi",
+            "format_name": "Nalinakanthi",
+            "arohanam": "S G3 R2 M1 P N3 S",
+            "avarohanam": "S N3 P M1 G3 R2 S",
+            "melakarta": 27
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 184,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "baHudhAri",
+            "format_name": "Bahudhari",
+            "arohanam": "S G3 M1 P D2 N2 S",
+            "avarohanam": "S N2 P M1 G3 S",
+            "melakarta": 28
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 185,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "balaHamsa",
+            "format_name": "Balahamsa",
+            "arohanam": "S R2 M1 P D2 S",
+            "avarohanam": "S N2 D2 P M1 R2 M1 G3 S",
+            "melakarta": 28
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 186,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "ChAyAtharan'giNi",
+            "format_name": "Chayatharangini",
+            "arohanam": "S R2 M1 G3 M1 P N2 S",
+            "avarohanam": "S N2 D2 P M1 G3 R2 S",
+            "melakarta": 28
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 187,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "dhvijAvanthi",
+            "format_name": "Dhvijavanthi",
+            "arohanam": "S R2 M1 G3 M1 P D2 S",
+            "avarohanam": "S N2 D2 P M1 G3 R2 G2 R2 S",
+            "melakarta": 28
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 188,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "HaridhAsapriya *",
+            "format_name": "Haridhasapriya",
+            "arohanam": "S P M1 G3 M1 P D2 N2 S",
+            "avarohanam": "S N2 D2 N2 P M1 G3 R2 S",
+            "melakarta": 28
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 189,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "IshamanOHari",
+            "format_name": "Ishamanohari",
+            "arohanam": "S R2 G3 M1 P D2 N2 S",
+            "avarohanam": "S N2 D2 P M1 R2 M1 G3 R2 S",
+            "melakarta": 28
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 190,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "janjUti",
+            "format_name": "Janjuti",
+            "arohanam": "S R2 G3 M1 P D2 N2",
+            "avarohanam": "N2 D2 P M1 G3 R2 S N2. D2. P. D2. S",
+            "melakarta": 28
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 191,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "jujAHuli",
+            "format_name": "Jujahuli",
+            "arohanam": "S M1 G3 M1 P D2 N2 S",
+            "avarohanam": "S N2 D2 P M1 G3 S",
+            "melakarta": 28
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 192,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "kAmbhOji",
+            "format_name": "Kambhoji",
+            "arohanam": "S R2 G3 M1 P D2 S",
+            "avarohanam": "S N2 D2 P M1 G3 R2 S N3. P. D2. S",
+            "melakarta": 28
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 193,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "kApinArAyaNi",
+            "format_name": "Kapinarayani",
+            "arohanam": "S R2 M1 P D2 N2 S",
+            "avarohanam": "S N2 D2 P M1 G3 R2 S",
+            "melakarta": 28
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 194,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "kamAs",
+            "format_name": "Kamas",
+            "arohanam": "S M1 G3 M1 P D2 N2 S",
+            "avarohanam": "S N2 D2 P M1 G3 R2 S",
+            "melakarta": 28
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 195,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "karnAtaka bEHAg",
+            "format_name": "Karnatakabehag",
+            "arohanam": "S R2 G3 M1 P D2 N2 S",
+            "avarohanam": "S N2 D2 N2 P D2 M1 G3 R2 G3 R2",
+            "melakarta": 28
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 196,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "kedhAragowLa",
+            "format_name": "Kedharagowla",
+            "arohanam": "S R2 M1 P N2 S",
+            "avarohanam": "S N2 D2 P M1 G3 R2 S",
+            "melakarta": 28
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 197,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "kOkilaDhvani",
+            "format_name": "Kokiladhvani",
+            "arohanam": "S R2 G3 M1 D2 N2 D2 S",
+            "avarohanam": "S N2 D2 N2 P M1 G3 R2 S",
+            "melakarta": 28
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 198,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "kunthalavarALi",
+            "format_name": "Kunthalavarali",
+            "arohanam": "S M1 P D2 N2 D2 S",
+            "avarohanam": "S N2 D2 P M1 S",
+            "melakarta": 28
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 199,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "mAlavi",
+            "format_name": "Malavi",
+            "arohanam": "S R2 G3 M1 P N2 M1 D2 N2 S",
+            "avarohanam": "S N2 D2 N2 P M1 G3 M1 R2 S",
+            "melakarta": 28
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 200,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "mOHana",
+            "format_name": "Mohana",
+            "arohanam": "S R2 G3 P D2 S",
+            "avarohanam": "S D2 P G3 R2 S",
+            "melakarta": 28
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 201,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "nAgasvarAvaLi",
+            "format_name": "Nagasvaravali",
+            "arohanam": "S G3 M1 P D2 S",
+            "avarohanam": "S D2 P M1 G3 S",
+            "melakarta": 28
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 202,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "nArAyaNagowLa",
+            "format_name": "Narayanagowla",
+            "arohanam": "S R2 M1 P N2 D2 N2 S",
+            "avarohanam": "S N2 P M1 G3 R2 G3 R2 S",
+            "melakarta": 28
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 203,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "nArAyani",
+            "format_name": "Narayani",
+            "arohanam": "S R2 M1 P D2 S",
+            "avarohanam": "S N2 D2 P M1 R2 S",
+            "melakarta": 28
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 204,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "nAtakuraN~ji",
+            "format_name": "Natakuranji",
+            "arohanam": "S R2 G3 M1 N2 D2 N2 P D2 N2 S",
+            "avarohanam": "S N2 D2 M1 G3 M1 P G3 R2 S",
+            "melakarta": 28
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 205,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "navarasa kalAnidhi *",
+            "format_name": "Navarasakalanidhi",
+            "arohanam": "S R2 M1 P S N2 S",
+            "avarohanam": "S D2 P M1 G3 R2 S",
+            "melakarta": 28
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 206,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "navarasa kannada",
+            "format_name": "Navarasakannada",
+            "arohanam": "S G3 M1 P S",
+            "avarohanam": "S N2 D2 M1 G3 R2 S",
+            "melakarta": 28
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 207,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "prathApa  varALi",
+            "format_name": "Prathapavarali",
+            "arohanam": "S R2 M1 P D2 P S",
+            "avarohanam": "S D2 P M1 G3 R2 S",
+            "melakarta": 28
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 208,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "pravAlajothi",
+            "format_name": "Pravalajothi",
+            "arohanam": "S R2 M1 P D2 N2 S",
+            "avarohanam": "S N2 D2 N2 P M1 G3 G3",
+            "melakarta": 28
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 209,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "rAgapanjaram",
+            "format_name": "Ragapanjaram",
+            "arohanam": "S R2 M1 P D2 N2 D2 S",
+            "avarohanam": "S N2 D2 M1 R2 S",
+            "melakarta": 28
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 210,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "ravichandhrika",
+            "format_name": "Ravichandhrika",
+            "arohanam": "S R2 G3 M1 D2 N2 D2 S",
+            "avarohanam": "S N2 D2 M1 G3 R2 S",
+            "melakarta": 28
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 211,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "sAma",
+            "format_name": "Sama",
+            "arohanam": "S R2 M1 P D2 S",
+            "avarohanam": "S D2 P M1 G3 R2 S",
+            "melakarta": 28
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 212,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "saHAna",
+            "format_name": "Sahana",
+            "arohanam": "S R2 G3 M1 P M1 D2 N2 S",
+            "avarohanam": "S N2 S D2 N2 D2 P M1 G3 M1 R2 G3 R2 S",
+            "melakarta": 28
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 213,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "sarasvathi manOHari",
+            "format_name": "Sarasvathimanohari",
+            "arohanam": "S R2 G3 M1 D2 S",
+            "avarohanam": "S D2 N2 P M1 G3 R2 S",
+            "melakarta": 28
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 214,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "sindhu kannada",
+            "format_name": "Sindhukannada",
+            "arohanam": "S M1 G3 M1 R2 G3 M1 P D2 P S",
+            "avarohanam": "S N2 D2 P M1 G3 R2 S",
+            "melakarta": 28
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 215,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "sudhdha tharan'gini",
+            "format_name": "Sudhdhatharangini",
+            "arohanam": "S R2 G3 M1 R2 M1 P D2 N2 D2 S",
+            "avarohanam": "S N2 D2 P M1 G3 R2 S",
+            "melakarta": 28
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 216,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "supOshini",
+            "format_name": "Suposhini",
+            "arohanam": "S R2 S M1 P N2 D2 S",
+            "avarohanam": "S D2 N2 P M1 R2 M1 S",
+            "melakarta": 28
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 217,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "surati",
+            "format_name": "Surati",
+            "arohanam": "S R2 M1 P N2 S",
+            "avarohanam": "S N2 D2 P M1 G3 P M1 R2 S",
+            "melakarta": 28
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 218,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "svarAvaLi",
+            "format_name": "Svaravali",
+            "arohanam": "S M1 G3 M1 P N2 D2 N2 S",
+            "avarohanam": "S N2 P D2 M1 G3 R2 S",
+            "melakarta": 28
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 219,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "svaravEdhi *",
+            "format_name": "Svaravedhi",
+            "arohanam": "S M1 G3 M1 P N2 D2 N2 S",
+            "avarohanam": "S N2 D2 N2 P M1 G3",
+            "melakarta": 28
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 220,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "thilan'g",
+            "format_name": "Thilang",
+            "arohanam": "S G3 M1 P N3 S",
+            "avarohanam": "S N2 P M1 G3 S",
+            "melakarta": 28
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 221,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "umAbharaNam",
+            "format_name": "Umabharanam",
+            "arohanam": "S R2 G3 M1 P D2 N2 S",
+            "avarohanam": "S N2 P M1 R2 G3 M1 R2 S",
+            "melakarta": 28
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 222,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "vINA vAdhini",
+            "format_name": "Vinavadhini",
+            "arohanam": "S R2 G3 P N2 S",
+            "avarohanam": "S N2 P G3 R2 S",
+            "melakarta": 28
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 223,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "vivardhini",
+            "format_name": "Vivardhini",
+            "arohanam": "S R2 M1 P S",
+            "avarohanam": "S N2 D2 P M1 G3 R2 S",
+            "melakarta": 28
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 224,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "yadhukulakAmbhOji",
+            "format_name": "Yadhukulakambhoji",
+            "arohanam": "S R2 M1 P D2 S",
+            "avarohanam": "S N2 D2 P M1 G3 R2 S",
+            "melakarta": 28
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 225,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "Arabhi",
+            "format_name": "Arabhi",
+            "arohanam": "S R2 M1 P D2 S",
+            "avarohanam": "S N3 D2 P M1 G3 R2 S",
+            "melakarta": 29
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 226,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "atAna",
+            "format_name": "Atana",
+            "arohanam": "S R2 M1 P N3 S",
+            "avarohanam": "S N3 D2 P M1 P G3 R2 S",
+            "melakarta": 29
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 227,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "ban'gALa",
+            "format_name": "Bangala",
+            "arohanam": "S R2 G3 M1 P M1 R2 P S",
+            "avarohanam": "S N3 P M1 R2 G3 R2 S",
+            "melakarta": 29
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 228,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "begada",
+            "format_name": "Begada",
+            "arohanam": "S G3 R2 G3 M1 P D2 N2 D2 P S",
+            "avarohanam": "S N3 D2 P M1 G3 R2 S",
+            "melakarta": 29
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 229,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "bEHAg",
+            "format_name": "Behag",
+            "arohanam": "S G3 M1 P N3 D2 N3 S",
+            "avarohanam": "S N3 D2 P M1 G3 R2 S",
+            "melakarta": 29
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 230,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "bilaHari",
+            "format_name": "Bilahari",
+            "arohanam": "S R2 G3 P D2 S",
+            "avarohanam": "S N3 D2 P M1 G3 R2 S",
+            "melakarta": 29
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 231,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "dhesAkshi",
+            "format_name": "Dhesakshi",
+            "arohanam": "S R2 G3 P D2 S",
+            "avarohanam": "S N3 D2 P M1 G3 R2 S",
+            "melakarta": 29
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 232,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "dhEvagAndhAri",
+            "format_name": "Dhevagandhari",
+            "arohanam": "S R2 M1 P D2 S",
+            "avarohanam": "S N3 D2 P M1 G3 R2 S",
+            "melakarta": 29
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 233,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "garudaDhvani",
+            "format_name": "Garudadhvani",
+            "arohanam": "S R2 G3 M1 P D2 N3 S",
+            "avarohanam": "S D2 P G3 R2 S",
+            "melakarta": 29
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 234,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "HamsaDhvani",
+            "format_name": "Hamsadhvani",
+            "arohanam": "S R2 G3 P N3 S",
+            "avarohanam": "S N3 P G3 R2 S",
+            "melakarta": 29
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 235,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "HindhusthAni bEHAg",
+            "format_name": "Hindhusthanibehag",
+            "arohanam": "S G3 M1 P N3 D2 N3 S",
+            "avarohanam": "S N3 D2 P M2 G3 M1 G3 R2 S",
+            "melakarta": 29
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 236,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "janaranjani",
+            "format_name": "Janaranjani",
+            "arohanam": "S R2 G3 M1 P D2 P N3 S",
+            "avarohanam": "S D2 P M1 R2 S",
+            "melakarta": 29
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 237,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "kadhana kuthUHalam",
+            "format_name": "Kadhanakuthuhalam",
+            "arohanam": "S R2 M1 D2 N3 G3 P S",
+            "avarohanam": "S N3 D2 P M1 G3 R2 S",
+            "melakarta": 29
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 238,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "kannada",
+            "format_name": "Kannada",
+            "arohanam": "S G3 M1 P M1 D2 N3 S",
+            "avarohanam": "S D2 P M1 G3 M1 R2 N3. S",
+            "melakarta": 29
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 239,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "kEdhAram",
+            "format_name": "Kedharam",
+            "arohanam": "S M1 G3 M1 P N3 S",
+            "avarohanam": "S N3 P M1 G3 R2 S",
+            "melakarta": 29
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 240,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "koiAHalam",
+            "format_name": "Koiahalam",
+            "arohanam": "S P M1 G3 M1 P D2 N3 S",
+            "avarohanam": "S N3 D2 P M1 G3 R2 S",
+            "melakarta": 29
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 241,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "kuraN~ji",
+            "format_name": "Kuranji",
+            "arohanam": "S N3 S R2 G3 M1 P D2",
+            "avarohanam": "D2 P M1 G3 R2 S N3 S",
+            "melakarta": 29
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 242,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "kuthUHalam",
+            "format_name": "Kuthuhalam",
+            "arohanam": "S R2 M1 N3 D2 P N3 S",
+            "avarohanam": "S N3 D2 P M1 G3 R2 S",
+            "melakarta": 29
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 243,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "mAnd",
+            "format_name": "Mand",
+            "arohanam": "S G3 M1 P D2 S",
+            "avarohanam": "S N3 D2 P M1 G3 R2 S",
+            "melakarta": 29
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 244,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "navaroj",
+            "format_name": "Navaroj",
+            "arohanam": "P D2 N3 S R2 G3 M1 P",
+            "avarohanam": "M1 G3 R2 S N3 D2 P",
+            "melakarta": 29
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 245,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "nIlAmbari",
+            "format_name": "Nilambari",
+            "arohanam": "S R2 G3 M1 P D2 P N3 S",
+            "avarohanam": "S N3 P M1 G3 R2 G3 S",
+            "melakarta": 29
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 246,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "pUrNachandhrika",
+            "format_name": "Purnachandhrika",
+            "arohanam": "S R2 G3 M1 P D2 P S",
+            "avarohanam": "S N3 P M1 R2 G3 M1 R2 S",
+            "melakarta": 29
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 247,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "sindhu mandhAri",
+            "format_name": "Sindhumandhari",
+            "arohanam": "S R2 G3 M1 P D2 P S",
+            "avarohanam": "S N3 D2 P G3 M1 D2 P M1 R2 S",
+            "melakarta": 29
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 248,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "sudhdha sAvEri",
+            "format_name": "Sudhdhasaveri",
+            "arohanam": "S R2 M1 P D2 S",
+            "avarohanam": "S D2 P M1 R2 S",
+            "melakarta": 29
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 249,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "ChAyAnAta",
+            "format_name": "Chayanata",
+            "arohanam": "S R3 G3 M1 P M1 P S",
+            "avarohanam": "S N2 D2 N2 P M1 R3 S",
+            "melakarta": 34
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 250,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "gAnavAridhi",
+            "format_name": "Ganavaridhi",
+            "arohanam": "S M1 R3 G3 M1 P D2 N2 S",
+            "avarohanam": "S D2 N2 P M1 R3 S",
+            "melakarta": 34
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 251,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "gambhiranAta",
+            "format_name": "Gambhiranata",
+            "arohanam": "S G3 M1 P N3 S",
+            "avarohanam": "S N3 P M1 G3 S",
+            "melakarta": 36
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 252,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "nAta",
+            "format_name": "Nata",
+            "arohanam": "S R3 G3 M1 P D3 N3 S",
+            "avarohanam": "S N3 P M1 R3 S",
+            "melakarta": 36
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 253,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "JinAvaLi",
+            "format_name": "Jinavali",
+            "arohanam": "S G1 R1 G1 M2 P D1 N3 D1 S",
+            "avarohanam": "S N3 D1 P M2 G1 R1 S",
+            "melakarta": 39
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 254,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "varALi",
+            "format_name": "Varali",
+            "arohanam": "S G1 R1 G1 M2 P D1 N3 S",
+            "avarohanam": "S N3 D1 P M2 G1 R1 S",
+            "melakarta": 39
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 255,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "nabhOmaNi",
+            "format_name": "Nabhomani",
+            "arohanam": "S R1 G1 R1 M2 P S",
+            "avarohanam": "S N2 D2 P M2 G1 R1 S",
+            "melakarta": 40
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 256,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "chandhrajyothi",
+            "format_name": "Chandhrajyothi",
+            "arohanam": "S R1 G1 M2 P D2 S",
+            "avarohanam": "S D2 P M2 G1 R1 S",
+            "melakarta": 41
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 257,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "vijayashrI",
+            "format_name": "Vijayashri",
+            "arohanam": "S G1 R1 G1 M2 P N3 S",
+            "avarohanam": "S N3 P M2 G1 R1 S",
+            "melakarta": 41
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 258,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "thivravAHini",
+            "format_name": "Thivravahini",
+            "arohanam": "S R1 G2 M2 P D2 N2 S",
+            "avarohanam": "S N2 D2 P M2 G2 R1 G2 M2 R1 S",
+            "melakarta": 46
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 259,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "dhipaka",
+            "format_name": "Dhipaka",
+            "arohanam": "S G3 M2 P D1 P S",
+            "avarohanam": "S N3 D1 N3 P M2 G3 R1 S",
+            "melakarta": 51
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 260,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "mandhAri",
+            "format_name": "Mandhari",
+            "arohanam": "S R1 G3 M2 P N3 S",
+            "avarohanam": "S N3 P M2 G3 R1 S",
+            "melakarta": 51
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 261,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "rAma manOHari",
+            "format_name": "Ramamanohari",
+            "arohanam": "S R1 G3 M2 P D2 N2 D2 S",
+            "avarohanam": "S N2 D2 P M2 G3 R1 S",
+            "melakarta": 52
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 262,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "gamakakriya",
+            "format_name": "Gamakakriya",
+            "arohanam": "S R1 G3 M2 P D2 P S",
+            "avarohanam": "S N3 D2 P M2 G3 R1 S",
+            "melakarta": 53
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 263,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "gamanakriya",
+            "format_name": "Gamanakriya",
+            "arohanam": "S R1 M2 P D2 N3 S",
+            "avarohanam": "S N3 D2 P M2 G3 M2 R1 S",
+            "melakarta": 53
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 264,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "HamsAnandhi",
+            "format_name": "Hamsanandhi",
+            "arohanam": "S R1 G3 M2 D2 N3 S",
+            "avarohanam": "S N3 D2 M2 G3 R1 S",
+            "melakarta": 53
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 265,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "mEchakAn'gi",
+            "format_name": "Mechakangi",
+            "arohanam": "S R1 G3 M2 P D2 N3 S",
+            "avarohanam": "S N3 P D2 P M2 G3 R1 S",
+            "melakarta": 53
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 266,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "pUrvikalyANi",
+            "format_name": "Purvikalyani",
+            "arohanam": "S R1 G3 M2 P D2 P S",
+            "avarohanam": "S N3 D2 P M2 G3 R1 S",
+            "melakarta": 53
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 267,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "vijayavasantha",
+            "format_name": "Vijayavasantha",
+            "arohanam": "S M2 P D3 N3 S",
+            "avarohanam": "S N3 P M2 G3 R1 S",
+            "melakarta": 54
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 268,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "chinthAmaNi",
+            "format_name": "Chinthamani",
+            "arohanam": "S R2 P M2 P D2 N2 S",
+            "avarohanam": "S P D1 P M2 G2 R2 S",
+            "melakarta": 56
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 269,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "sudhdha rAga",
+            "format_name": "Sudhdharaga",
+            "arohanam": "S R2 G2 M2 P N3 S",
+            "avarohanam": "S N3 P M2 G2 R2 S",
+            "melakarta": 57
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 270,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "vijayanAgari",
+            "format_name": "Vijayanagari",
+            "arohanam": "S R2 G2 M2 P D2 S",
+            "avarohanam": "S D2 P M2 G2 R2 S",
+            "melakarta": 58
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 271,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "madhuvanthi",
+            "format_name": "Madhuvanthi",
+            "arohanam": "S G2 M2 P N3 S",
+            "avarohanam": "S N3 D2 P M2 G2 R2 S",
+            "melakarta": 59
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 272,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "ranjani",
+            "format_name": "Ranjani",
+            "arohanam": "S R2 G2 M2 D2 S",
+            "avarohanam": "S N3 D2 M2 G2 S R2 G2 S",
+            "melakarta": 59
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 273,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "amarasenapriya",
+            "format_name": "Amarasenapriya",
+            "arohanam": "S R2 M2 P N3 S",
+            "avarohanam": "S N3 P M2 R2 G2 R2 S",
+            "melakarta": 60
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 274,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "HamsanAdham",
+            "format_name": "Hamsanadham",
+            "arohanam": "S R2 M2 P N3 S",
+            "avarohanam": "S N3 P M2 R2 S",
+            "melakarta": 60
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 275,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "kaikavAsi",
+            "format_name": "Kaikavasi",
+            "arohanam": "S R2 G2 M2 P D3 N3 S",
+            "avarohanam": "S N3 P M2 G2 R2 S",
+            "melakarta": 60
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 276,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "shruthiranjani",
+            "format_name": "Shruthiranjani",
+            "arohanam": "S R2 G3 M2 P D1 N1",
+            "avarohanam": "N1 D1 P M2 G3 S R2 S",
+            "melakarta": 61
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 277,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "gopriya",
+            "format_name": "Gopriya",
+            "arohanam": "S R2 G3 M2 D1 N2 S",
+            "avarohanam": "S N2 D1 M2 G3 R2 S",
+            "melakarta": 62
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 278,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "bhUshavaLi",
+            "format_name": "Bhushavali",
+            "arohanam": "S R2 G3 M2 P D2 S",
+            "avarohanam": "S N2 D2 P M2 G3 R2 S",
+            "melakarta": 64
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 279,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "sarasvathi",
+            "format_name": "Sarasvathi",
+            "arohanam": "S R2 M2 P D2 S",
+            "avarohanam": "S N2 D2 P M2 R2 S",
+            "melakarta": 64
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 280,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "HamirkalyANi",
+            "format_name": "Hamirkalyani",
+            "arohanam": "S P M2 P D2 N3 S",
+            "avarohanam": "S N3 D2 P M2 M1 G3 P M1 R2 S",
+            "melakarta": 65
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 281,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "mOHanakalyANi",
+            "format_name": "Mohanakalyani",
+            "arohanam": "S R2 G3 P D2 S",
+            "avarohanam": "S N3 D2 P M2 G3 R2 S",
+            "melakarta": 65
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 282,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "sAran'ga",
+            "format_name": "Saranga",
+            "arohanam": "S R2 G3 M2 P D2 N3 S",
+            "avarohanam": "S N3 D2 P M2 R2 G3 M1 R2 S",
+            "melakarta": 65
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 283,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "yamunAkalyANi",
+            "format_name": "Yamunakalyani",
+            "arohanam": "S R2 G3 P M2 P D2 S",
+            "avarohanam": "S D2 P M2 P G3 R2 S",
+            "melakarta": 65
+        }
+    },
+    {
+        "model": "raagaapi.raga",
+        "pk": 284,
+        "fields": {
+            "created": "1900-01-01 00:00:00",
+            "name": "amRuthavarshiNi",
+            "format_name": "Amruthavarshini",
+            "arohanam": "S G3 M2 P N3 S",
+            "avarohanam": "S N3 P M2 G3 S",
+            "melakarta": 66
+        }
+    }
+]
