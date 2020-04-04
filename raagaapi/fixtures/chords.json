@@ -1,0 +1,282 @@
+[
+    {
+        "model": "raagaapi.chord",
+        "pk": 1,
+        "fields": {
+            "name": "Major",
+            "formula": "1 3 5",
+            "affix": "maj",
+            "description": "Named after the major 3rd interval between root and 3"
+        }
+    },
+    {
+        "model": "raagaapi.chord",
+        "pk": 2,
+        "fields": {
+            "name": "Minor",
+            "formula": "1 b3 5",
+            "affix": "min",
+            "description": "Named after the minor 3rd interval between root and b3"
+        }
+    },
+    {
+        "model": "raagaapi.chord",
+        "pk": 3,
+        "fields": {
+            "name": "7th",
+            "formula": "1 3 5 b7",
+            "affix": "7",
+            "description": "Also called DOMINANT 7th"
+        }
+    },
+    {
+        "model": "raagaapi.chord",
+        "pk": 4,
+        "fields": {
+            "name": "Major 7th",
+            "formula": "1 3 5 7",
+            "affix": "maj7",
+            "description": "Named after the major 7th interval between root and 7th major scale note"
+        }
+    },
+    {
+        "model": "raagaapi.chord",
+        "pk": 5,
+        "fields": {
+            "name": "Minor 7th",
+            "formula": "1 b3 5 b7",
+            "affix": "min7",
+            "description": ""
+        }
+    },
+    {
+        "model": "raagaapi.chord",
+        "pk": 6,
+        "fields": {
+            "name": "6th",
+            "formula": "1 3 5 6",
+            "affix": "6",
+            "description": "Major chord with 6th major scale note added"
+        }
+    },
+    {
+        "model": "raagaapi.chord",
+        "pk": 7,
+        "fields": {
+            "name": "Minor 6th",
+            "formula": "1 b3 5 6",
+            "affix": "min6",
+            "description": "Minor chord with 6th major scale note added"
+        }
+    },
+    {
+        "model": "raagaapi.chord",
+        "pk": 8,
+        "fields": {
+            "name": "Diminished",
+            "formula": "1 b3 b5",
+            "affix": "dim",
+            "description": ""
+        }
+    },
+    {
+        "model": "raagaapi.chord",
+        "pk": 9,
+        "fields": {
+            "name": "Diminished 7th",
+            "formula": "1 b3 b5 bb7",
+            "affix": "dim7",
+            "description": ""
+        }
+    },
+    {
+        "model": "raagaapi.chord",
+        "pk": 10,
+        "fields": {
+            "name": "Half diminished 7th",
+            "formula": "1 b3 b5 b7",
+            "affix": "min7dim5",
+            "description": "Also called minor 7thb5"
+        }
+    },
+    {
+        "model": "raagaapi.chord",
+        "pk": 11,
+        "fields": {
+            "name": "Augmented",
+            "formula": "1 3 #5",
+            "affix": "aug",
+            "description": ""
+        }
+    },
+    {
+        "model": "raagaapi.chord",
+        "pk": 12,
+        "fields": {
+            "name": "7th #5",
+            "formula": "1 3 #5 b7",
+            "affix": "dom7dim5",
+            "description": ""
+        }
+    },
+    {
+        "model": "raagaapi.chord",
+        "pk": 13,
+        "fields": {
+            "name": "9th",
+            "formula": "1 3 5 b7 9",
+            "affix": "9",
+            "description": ""
+        }
+    },
+    {
+        "model": "raagaapi.chord",
+        "pk": 14,
+        "fields": {
+            "name": "7th #9",
+            "formula": "1 3 5 b7 #9",
+            "affix": "7#9",
+            "description": "The 'Hendrix' chord"
+        }
+    },
+    {
+        "model": "raagaapi.chord",
+        "pk": 15,
+        "fields": {
+            "name": "Major 9th",
+            "formula": "1 3 5 7 9",
+            "affix": "maj9",
+            "description": ""
+        }
+    },
+    {
+        "model": "raagaapi.chord",
+        "pk": 16,
+        "fields": {
+            "name": "Added 9th",
+            "formula": "1 3 5 9",
+            "affix": "add9",
+            "description": "Chords extended beyond the octave are called 'added' when the 7th is not present."
+        }
+    },
+    {
+        "model": "raagaapi.chord",
+        "pk": 17,
+        "fields": {
+            "name": "Minor 9th",
+            "formula": "1 b3 5 b7 9",
+            "affix": "min9",
+            "description": ""
+        }
+    },
+    {
+        "model": "raagaapi.chord",
+        "pk": 18,
+        "fields": {
+            "name": "Minor add 9th",
+            "formula": "1 b3 5 9",
+            "affix": "minAdd9",
+            "description": ""
+        }
+    },
+    {
+        "model": "raagaapi.chord",
+        "pk": 19,
+        "fields": {
+            "name": "11th",
+            "formula": "1 (3) 5 b7 9 11",
+            "affix": "11",
+            "description": "The 3rd is often omitted to avoid a clash with the 11th"
+        }
+    },
+    {
+        "model": "raagaapi.chord",
+        "pk": 20,
+        "fields": {
+            "name": "Minor 11th",
+            "formula": "1 b3 5 b7 9 11",
+            "affix": "min11",
+            "description": ""
+        }
+    },
+    {
+        "model": "raagaapi.chord",
+        "pk": 21,
+        "fields": {
+            "name": "7th #11",
+            "formula": "1 3 5 b7 #11",
+            "affix": "7#11",
+            "description": "Often used in preference to 11th chords to avoid the dissonant clash between 11 and 3"
+        }
+    },
+    {
+        "model": "raagaapi.chord",
+        "pk": 22,
+        "fields": {
+            "name": "Major 7th #11",
+            "formula": "1 3 5 7 9 #11",
+            "affix": "maj7#11",
+            "description": ""
+        }
+    },
+    {
+        "model": "raagaapi.chord",
+        "pk": 23,
+        "fields": {
+            "name": "13th",
+            "formula": "1 3 5 b7 9 (11) 13",
+            "affix": "13",
+            "description": "The 11th is often omitted to avoid a clash with the 3rd."
+        }
+    },
+    {
+        "model": "raagaapi.chord",
+        "pk": 24,
+        "fields": {
+            "name": "Major 13th",
+            "formula": "1 3 5 7 9 (11) 13",
+            "affix": "maj13",
+            "description": "The 11th is often omitted to avoid a clash with the 3rd."
+        }
+    },
+    {
+        "model": "raagaapi.chord",
+        "pk": 25,
+        "fields": {
+            "name": "Minor 13th",
+            "formula": "1 b3 5 b7 9 11 13",
+            "affix": "min13",
+            "description": ""
+        }
+    },
+    {
+        "model": "raagaapi.chord",
+        "pk": 26,
+        "fields": {
+            "name": "Suspended 4th",
+            "formula": "1 4 5",
+            "affix": "sus4",
+            "description": ""
+        }
+    },
+    {
+        "model": "raagaapi.chord",
+        "pk": 27,
+        "fields": {
+            "name": "Suspended 2nd",
+            "formula": "1 2 5",
+            "affix": "sus2",
+            "description": "Sometimes considered as an inverted sus4 (GCD)"
+        }
+    },
+    {
+        "model": "raagaapi.chord",
+        "pk": 28,
+        "fields": {
+            "name": "5th",
+            "formula": "1 5",
+            "affix": "5",
+            "description": "Power chord"
+        }
+    }
+]

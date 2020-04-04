@@ -2,8 +2,8 @@ from django.shortcuts import render
 
 from rest_framework import viewsets, generics, filters
 
-from .serializers import RagaSerializer
-from .models import Raga
+from .serializers import RagaSerializer, ChordSerializer
+from .models import Raga, Chord
 
 
 class SwaraFilterBackend(filters.BaseFilterBackend):
@@ -32,3 +32,11 @@ class RagaViewSet(viewsets.ModelViewSet):
     filter_backends = (filters.SearchFilter, SwaraFilterBackend, )
     search_fields = ['^format_name', '^name']
     filter_fields = ['swaras']
+
+# chords/ => Returns all chords
+class ChordViewSet(viewsets.ModelViewSet):
+    """
+    Return a list of all the defined chords.
+    """
+    queryset = Chord.objects.all()
+    serializer_class = ChordSerializer
