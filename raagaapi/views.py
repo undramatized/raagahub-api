@@ -1,7 +1,8 @@
 from django.shortcuts import render
 
 from rest_framework import viewsets, generics, filters
-
+from rest_framework.decorators import action
+from rest_framework.response import Response
 from .serializers import RagaSerializer, ChordSerializer
 from .models import Raga, Chord
 
@@ -32,6 +33,17 @@ class RagaViewSet(viewsets.ModelViewSet):
     filter_backends = (filters.SearchFilter, SwaraFilterBackend, )
     search_fields = ['^format_name', '^name']
     filter_fields = ['swaras']
+
+    @action(detail=True, url_path='chords', url_name='chords')
+    def get_chords(self, request, pk=None):
+        """
+        Return a list of all the defined chords, for a particular raga and root note (default C)
+        """
+        raga = Raga.objects.get(pk=pk)
+        root = request.query_params.get('root', 'C')
+
+        chord_list = raga.get_chords(root)
+        return Response(chord_list)
 
 # chords/ => Returns all chords
 class ChordViewSet(viewsets.ModelViewSet):
