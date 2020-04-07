@@ -1,6 +1,5 @@
 import re
 
-
 class ChordHelper:
     NOTES = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"]
 
@@ -102,6 +101,17 @@ class ChordHelper:
             semitone_interval.append(semitones)
         return self.semitones_with_omitted_to_notes(semitone_interval, root)
 
+    # Returns same as get_chord_notes_with_omitted without the omitted data
+    # ['F', 'A', 'C']
+    def get_chord_notes(self, chord, root):
+        chord_formula = chord.formula.split()
+        semitone_interval = []
+
+        for note in chord_formula:
+            semitones = self.get_semitone(note)
+            semitone_interval.append(semitones)
+        return self.semitones_to_notes(semitone_interval, root)
+
     def get_chord_semitones(self, chord):
         chord_formula = chord.formula.split()
         semitones = []
@@ -112,20 +122,45 @@ class ChordHelper:
 
         return semitones
 
+    # Given a root note, returns the semitones of chord relative to the root note
+    # ('A', Chord(maj)) for root F => A[0, 4, 7] -> F[4, 8, 11]
+    # Maximum value of semitone is 11
+    def get_chord_semitones_with_root(self, chord, root):
+        chord_root = chord[0]
+        chord_obj = chord[1]
+        chord_formula = chord_obj.formula.split()
+        semitones = []
+
+        for note in chord_formula:
+            semitone = self.get_semitone(note)
+            semitones.append(semitone)
+
+        transpose_val = self.NOTES.index(chord_root) - self.NOTES.index(root)
+        return [(semitone+transpose_val)%12 for semitone in semitones]
+
+
+
+
 
 class SampleChord:
-    def __init__(self):
-        self.name = 'Minor 6th'
-        self.formula = '1 b3 5 6'
-        self.affix = 'min6'
-        self.description = 'Minor chord with 6th major scale note added'
+    def __init__(self, id, formula, affix):
+        self.name = 'Generic Name'
+        self.id = id
+        self.formula = formula
+        self.affix = affix
+        self.description = 'description'
+
+    def get_semitones(self):
+        return ChordHelper().get_chord_semitones(self)
 
 if __name__ == '__main__':
-    chord = SampleChord()
+    chordmaj = SampleChord(1, "1 3 5", "maj")
+    chordmin = SampleChord(2, "1 b3 5", "min")
     helper = ChordHelper()
-    semitones = helper.get_chord_semitones(chord)
+    semitones = helper.get_chord_semitones(chordmaj)
+    print(semitones)
 
     print(helper.semitones_to_notes(semitones, 'C'))
-    print(helper.get_chord_notes_with_omitted(chord, 'C'))
+    print(helper.get_chord_notes_with_omitted(chordmaj, 'C'))
 
-    # print get_chord_notes(chord, 'F')
+    print(helper.get_chord_notes(chordmaj, 'C'))
