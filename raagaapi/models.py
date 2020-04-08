@@ -53,8 +53,8 @@ class Raga(models.Model):
 
     # Checks if a string of space-seperated swaras are contained in a raga and returns boolean
     def has_swaras(self, swaras):
-        filter_swaras = set(swaras.split(" "))
-        all_swaras = set(self.get_swaras())
+        filter_swaras = set(self.raga_helper.simplify_swaras(swaras.split(" ")))
+        all_swaras = set(self.raga_helper.simplify_swaras(self.get_swaras()))
         return filter_swaras.issubset(all_swaras)
 
     # Given a root note, get all chords that can work within a raga

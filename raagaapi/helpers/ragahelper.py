@@ -26,15 +26,15 @@ class RagaHelper:
     SEMITONE_TO_SWARAS = {
         0: ['S'],
         1: ['R1'],
-        2: ['R2', 'G1'],
-        3: ['R3', 'G2'],
+        2: ['R2'],
+        3: ['G2'],
         4: ['G3'],
         5: ['M1'],
         6: ['M2'],
         7: ['P'],
         8: ['D1'],
-        9: ['D2', 'N1'],
-        10: ['D3', 'N2'],
+        9: ['D2'],
+        10: ['N2'],
         11: ['N3']
     }
 
@@ -123,6 +123,28 @@ class RagaHelper:
         semitones.sort()
         return self.get_swara_from_semitones(semitones)
 
+    # Given a list of swaras, simplify them for easier comparison
+    # Changes will be: G1->R2, R3->G2, N1->D2, D3->N2
+    # Also removes repeating notes
+    def simplify_swaras(self, swaralist):
+        simplifiedswaras = []
+        for swara in swaralist:
+            if swara == 'G1':
+                if 'R2' not in simplifiedswaras:
+                    simplifiedswaras.append('R2')
+            elif swara == 'R3':
+                if 'G2' not in simplifiedswaras:
+                    simplifiedswaras.append('G2')
+            elif swara == 'N1':
+                if 'D2' not in simplifiedswaras:
+                    simplifiedswaras.append('D2')
+            elif swara == 'D3':
+                if 'N2' not in simplifiedswaras:
+                    simplifiedswaras.append('N2')
+            else:
+                simplifiedswaras.append(swara)
+        return simplifiedswaras
+
 
 class SampleChord:
     def __init__(self, id, formula, affix):
@@ -159,6 +181,8 @@ if __name__ == '__main__':
 
     chords = [chord1, chord2, chord3, chord4]
 
-    print(helper.get_swaras_from_chords(chords, 'C'))
+    swaras = helper.get_swaras_from_chords(chords, 'C')
+
+    print(helper.simplify_swaras(swaras))
 
 
