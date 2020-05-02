@@ -54,8 +54,8 @@
             "created": "1900-01-01 00:00:00",
             "name": "punnAgavarALi",
             "format_name": "Punnagavarali",
-            "arohanam": "N2 , S R1 G2 M1 P D1 N2",
-            "avarohanam": "N2 D1 P M1 G2 R1 S N2 ,",
+            "arohanam": "N2 S R1 G2 M1 P D1 N2",
+            "avarohanam": "N2 D1 P M1 G2 R1 S N2",
             "melakarta": 8
         }
     },
@@ -403,7 +403,7 @@
             "name": "thakka  (a)",
             "format_name": "Thakkaa",
             "arohanam": "S R1 S M1 G3 M1 D1 N3 S",
-            "avarohanam": "S N3 P M1 G 3 M1 P R1 G3 S",
+            "avarohanam": "S N3 P M1 G3 M1 P R1 G3 S",
             "melakarta": 15
         }
     },
@@ -799,7 +799,7 @@
             "name": "chiththaranjani",
             "format_name": "Chiththaranjani",
             "arohanam": "S R2 G2 M1 P D2 N2",
-            "avarohanam": "N2 D2 P M1 G2 R2 S N2.",
+            "avarohanam": "N2 D2 P M1 G2 R2 S",
             "melakarta": 22
         }
     },
@@ -942,7 +942,7 @@
             "created": "1900-01-01 00:00:00",
             "name": "kAnadA",
             "format_name": "Kanada",
-            "arohanam": "S R2 G2 M1 D N2 S",
+            "arohanam": "S R2 G2 M1 D2 N2 S",
             "avarohanam": "S N2 P M1 G2 M1 R2 S",
             "melakarta": 22
         }
@@ -954,7 +954,7 @@
             "created": "1900-01-01 00:00:00",
             "name": "kalAniDhi",
             "format_name": "Kalanidhi",
-            "arohanam": "SR2G2M1SPM1D2N2S",
+            "arohanam": "S R2 G2 M1 S P M1 D2 N2 S",
             "avarohanam": "S N2 D2 P M1 G2 R2 S",
             "melakarta": 22
         }
@@ -1291,7 +1291,7 @@
             "name": "vasantha varALi 2",
             "format_name": "Vasanthavarali",
             "arohanam": "S R2 M1 P D3 N3",
-            "avarohanam": "N3 D3 P M G1 R S N",
+            "avarohanam": "N3 D3 P M1 G1 R2 S N3",
             "melakarta": 24
         }
     },
@@ -1435,7 +1435,7 @@
             "name": "kAmbhOji",
             "format_name": "Kambhoji",
             "arohanam": "S R2 G3 M1 P D2 S",
-            "avarohanam": "S N2 D2 P M1 G3 R2 S N3. P. D2. S",
+            "avarohanam": "S N2 D2 P M1 G3 R2 S",
             "melakarta": 28
         }
     },
@@ -1987,7 +1987,7 @@
             "name": "kannada",
             "format_name": "Kannada",
             "arohanam": "S G3 M1 P M1 D2 N3 S",
-            "avarohanam": "S D2 P M1 G3 M1 R2 N3. S",
+            "avarohanam": "S D2 P M1 G3 M1 R2 S",
             "melakarta": 29
         }
     },

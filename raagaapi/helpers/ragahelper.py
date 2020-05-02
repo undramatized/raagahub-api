@@ -145,6 +145,31 @@ class RagaHelper:
                 simplifiedswaras.append(swara)
         return simplifiedswaras
 
+    # Given arohanam and avarohanam strings of a raga
+    # Returns True if any swara is repeated in arohanam/avarohanam
+    # Returns False otherwise
+    def has_repeating_notes(self, arohanam, avarohanam):
+        aro_notes = arohanam.split(" ")[1:]
+        ava_notes = avarohanam.split(" ")[1:]
+
+        aro_counter = []
+        ava_counter = []
+
+        for note in aro_notes:
+            if note in aro_counter:
+                return True
+            else:
+                aro_counter.append(note)
+
+        for note in ava_notes:
+            if note in ava_counter:
+                return True
+            else:
+                aro_counter.append(note)
+
+        return False
+
+
 
 class SampleChord:
     def __init__(self, id, formula, affix):

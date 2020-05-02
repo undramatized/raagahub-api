@@ -37,6 +37,35 @@ class Raga(models.Model):
     def __str__(self):
         return self.name
 
+
+    # Calculated properties for Raga
+    @property
+    def is_janaka(self):
+        return not bool(self.melakarta)
+
+    @property
+    def is_janya(self):
+        return bool(self.melakarta)
+
+    @property
+    def is_vakra(self):
+        return self.raga_helper.has_repeating_notes(self.arohanam, self.avarohanam)
+
+    @property
+    def is_bashanga(self):
+        if self.is_janaka:
+            return None
+        all_swaras = set(self.get_swaras())
+        melakarta_swaras = set(self.melakarta.get_swaras())
+        if len(all_swaras - melakarta_swaras)>0:
+            return True
+        else:
+            return False
+
+    @property
+    def is_upanga(self):
+        return not self.is_bashanga
+
     # Returns a list of swaras in the arohanam
     def get_aro_swaras(self):
         return self.arohanam.split(" ")
@@ -51,10 +80,14 @@ class Raga(models.Model):
         ava = set(self.avarohanam.split(" "))
         return list(aro | ava)
 
+    def get_simplified_swaras(self):
+        swaras = self.get_swaras()
+        return self.raga_helper.simplify_swaras(swaras)
+
     # Checks if a string of space-seperated swaras are contained in a raga and returns boolean
     def has_swaras(self, swaras):
         filter_swaras = set(self.raga_helper.simplify_swaras(swaras.split(" ")))
-        all_swaras = set(self.raga_helper.simplify_swaras(self.get_swaras()))
+        all_swaras = set(self.get_simplified_swaras())
         return filter_swaras.issubset(all_swaras)
 
     # Given a root note, get all chords that can work within a raga
