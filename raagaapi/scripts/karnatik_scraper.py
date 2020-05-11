@@ -70,16 +70,67 @@ def get_krithi_info(html_content):
 
     # Get krithi content
     info_elements = data[3]
-    info_child = info_elements.select('p p p i')[0].parent.contents[3]
+    raaga_content = info_elements.select('a')[0]
 
-    song_content = info_child.text.split('\n')
+    song_ragam = raaga_content.text.strip()
+
+    song_content = info_elements.select('p p p i')[0].parent.contents[3].text.split('\n')
     filtered_content = []
     elements_to_filter = ['', 'first', '|', 'previous', '|', 'next', 'Contact us']
     for element in song_content:
         if element.strip() not in elements_to_filter:
             filtered_content.append(element.strip())
 
-    print(filtered_content)
+    # print(filtered_content)
+
+    song_taalam = song_composer = song_lang = song_lyrics = song_meaning = song_notation = song_info = ""
+
+    for index, chunk in enumerate(filtered_content):
+        if 'taalam' in chunk.lower():
+            if len(chunk.split(':')) == 2:
+                song_taalam = chunk.split(':')[1].strip().lower()
+        elif 'composer' in chunk.lower():
+            if 'language' not in filtered_content[index+1].lower():
+                song_composer = filtered_content[index+1].strip().lower()
+        elif 'language' in chunk.lower():
+            if 'pallavi' not in filtered_content[index+1].lower():
+                song_lang = filtered_content[index+1].strip.lower()
+        elif 'pallavi' in chunk.lower():
+            song_lyrics = []
+            i = 0
+            while 'meaning' not in filtered_content[index+i].lower():
+                song_lyrics.append(filtered_content[index+i].strip())
+                i += 1
+        elif 'meaning' in chunk.lower():
+            song_meaning = []
+            i = 1
+            while 'notation' not in filtered_content[index+i].lower():
+                song_meaning.append(filtered_content[index+i].strip())
+                i += 1
+        elif 'notation' in chunk.lower():
+            song_notation = []
+            i = 1
+            while 'information' not in filtered_content[index+i].lower():
+                song_notation.append(filtered_content[index+i].strip())
+                i += 1
+        elif 'information' in chunk.lower():
+            song_info = []
+            i = 1
+            while index+i < len(filtered_content):
+                song_info.append(filtered_content[index+i].strip())
+                i += 1
+
+    krithi = {'name': song_name,
+              'raga': song_ragam,
+              'taala': song_taalam,
+              'composer': song_composer,
+              'language': song_lang,
+              'lyrics': song_lyrics,
+              'meaning': song_meaning,
+              'notation': song_notation,
+              'other_info': song_info}
+
+    print(krithi)
 
 
 
@@ -94,7 +145,7 @@ if __name__ == '__main__':
     # urls = get_krithi_url_list(html)
     # print(urls)
 
-    krithi_url = KRITHI_URL.format(krithi_id='c9431.shtml')
+    krithi_url = KRITHI_URL.format(krithi_id='c8930.shtml')
     content = simple_get(krithi_url)
 
     get_krithi_info(content)
