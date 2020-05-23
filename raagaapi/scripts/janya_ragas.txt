@@ -14,6 +14,7 @@ kalagada             |13| S R1 G3 P D1 N1 S       | S N1 D1 P G3 R1 S
 
 14 | vakulAbharaNam
 vasanthabhairavi     |14| S R1 G3 M1 D1 N2 S      | S N2 D1 M1 P M1 G3 R1 S
+anandha              |14| S R1 G3 M1 P S          | S N2 D1 P M1 G3 R1 S
 
 15 | mAyAmALava gowLA
 ardhradhesi          |15| S R1 G3 M1 P D1 S N3 S  | S D1 P M1 G3 R1 S
@@ -56,6 +57,7 @@ bhairavam            |17| S R1 G3 M1 P D2 N3 S    | S D2 P M1 G3 R1 S
 sowrAshtram          |17| S R1 G3 M1 P M1 D2 N3 S | S N3 D2 N2 D2 P M1 G3 R1 S
 supradhIpam          |17| S R1 M1 P D2 S          | S N3 D2 P M1 G3 M1 R1 S
 vasanthA             |17| S M1 G3 M1 D2 N3 S      | S N3 D2 M1 G3 R1 S
+ahir bhairav         |17| S R1 G3 M1 P N2 D2 M1 P D2 S | S N2 D2 P M1 P G3 R1 S
 
 19 | Jan'kAradhvani
 pUrnalalitha         |19| S G2 R2 M1 P S          | S N1 D1 P M1 G2 R2 S

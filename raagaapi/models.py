@@ -30,6 +30,7 @@ class Raga(models.Model):
     melakarta = models.ForeignKey('Raga', null=True, on_delete=models.SET_NULL)
     arohanam = models.CharField(max_length=100, blank=False, null=False)
     avarohanam = models.CharField(max_length=100, blank=False, null=False)
+    aliases = models.CharField(max_length=10000, blank=True, null=False)
 
     objects = RagaManager()
     raga_helper = RagaHelper()

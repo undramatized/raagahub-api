@@ -1,4 +1,5 @@
-import json, datetime
+import json
+from datetime import datetime
 
 JSON_PATH = '../fixtures/janya_ragas.json'
 
@@ -31,11 +32,12 @@ def populate_janya():
                 "model": "raagaapi.raga",
                 "pk": pk,
                 "fields": {
-                    "created": datetime.time().strftime('%Y-%m-%d %H:%M:%S'),
+                    "created": datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
                     "name": name,
                     "format_name": format_name(name),
                     "arohanam": arohanam,
                     "avarohanam": avarohanam,
+                    "aliases": '',
                     "melakarta": int(curr_melakartha_id)
                 }
             }

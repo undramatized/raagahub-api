@@ -11,6 +11,7 @@ class RagaSerializer(serializers.ModelSerializer):
                   'melakarta',
                   'arohanam',
                   'avarohanam',
+                  'aliases',
                   'is_janaka',
                   'is_janya',
                   'is_vakra',

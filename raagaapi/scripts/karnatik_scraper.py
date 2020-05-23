@@ -201,6 +201,7 @@ if __name__ == '__main__':
         content = simple_get(krithi_url)
         if content:
             krithi = get_krithi_details(content)
+            krithi['url'] = krithi_url
             krithi_details.append(krithi)
 
         time.sleep(1)
