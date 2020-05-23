@@ -21,7 +21,7 @@
             "format_name": "Asaveri",
             "arohanam": "S R1 M1 P D1 S",
             "avarohanam": "S N2 S P D1 M1 P R1 G2 R1 S",
-            "aliases": "",
+            "aliases": ",asaavEri",
             "melakarta": 8
         }
     },
@@ -112,7 +112,7 @@
             "format_name": "Anandha",
             "arohanam": "S R1 G3 M1 P S",
             "avarohanam": "S N2 D1 P M1 G3 R1 S",
-            "aliases": "",
+            "aliases": ",Ananda",
             "melakarta": 14
         }
     },
@@ -125,7 +125,7 @@
             "format_name": "Ardhradhesi",
             "arohanam": "S R1 G3 M1 P D1 S N3 S",
             "avarohanam": "S D1 P M1 G3 R1 S",
-            "aliases": "",
+            "aliases": ",ArdradEshi",
             "melakarta": 15
         }
     },
@@ -593,7 +593,7 @@
             "format_name": "Ahirbhairav",
             "arohanam": "S R1 G3 M1 P N2 D2 M1 P D2 S",
             "avarohanam": "S N2 D2 P M1 P G3 R1 S",
-            "aliases": ",ahIrbhairav",
+            "aliases": ",ahIrbhairav,aahir bhairav",
             "melakarta": 17
         }
     },
@@ -619,7 +619,7 @@
             "format_name": "Amrithavahini",
             "arohanam": "S R2 M1 P D1 N2 S",
             "avarohanam": "S N2 D1 M1 G2 R2 S",
-            "aliases": "",
+            "aliases": ",amrtavAhini,amritavaahini",
             "melakarta": 20
         }
     },
@@ -632,7 +632,7 @@
             "format_name": "Anandhabhairavi",
             "arohanam": "S G2 R2 G2 M1 P D2 P N2 S",
             "avarohanam": "S N2 D2 P M1 G2 R2 S",
-            "aliases": "",
+            "aliases": ",Anandabhairavi,aananda bhairavi,Ananda bhairavi,aanandabhairavi,Anndabhairavi",
             "melakarta": 20
         }
     },
@@ -853,7 +853,7 @@
             "format_name": "Andholika",
             "arohanam": "S R2 M1 P N2 S",
             "avarohanam": "S N2 D2 M1 R2 S",
-            "aliases": "",
+            "aliases": ",AndOLikA,aandOLikaa",
             "melakarta": 22
         }
     },
@@ -2010,7 +2010,7 @@
             "format_name": "Arabhi",
             "arohanam": "S R2 M1 P D2 S",
             "avarohanam": "S N3 D2 P M1 G3 R2 S",
-            "aliases": "",
+            "aliases": ",aarabi,Arabhi/hamsAnandi",
             "melakarta": 29
         }
     },
@@ -2023,7 +2023,7 @@
             "format_name": "Atana",
             "arohanam": "S R2 M1 P N3 S",
             "avarohanam": "S N3 D2 P M1 P G3 R2 S",
-            "aliases": "",
+            "aliases": ",aThANA,aThaaNaa,aThAna,AThANA,aThANa",
             "melakarta": 29
         }
     },
@@ -2777,7 +2777,7 @@
             "format_name": "Amruthavarshini",
             "arohanam": "S G3 M2 P N3 S",
             "avarohanam": "S N3 P M2 G3 S",
-            "aliases": "",
+            "aliases": ",amrtavarSiNi,amritavarshini,amrtavarSaNi,amrtavarSaNI",
             "melakarta": 66
         }
     }

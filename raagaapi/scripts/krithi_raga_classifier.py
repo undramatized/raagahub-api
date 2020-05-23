@@ -73,26 +73,50 @@ def update_raga_json_alias(raga_id, alias):
 
 
 if __name__ == '__main__':
-    # krithis = get_json(KRITHIS_JSON_PATH)
-    # raaga_ids = get_raaga_ids()
-    #
-    # unknown_raagas = []
-    #
-    # for krithi in krithis:
-    #     if krithi['raaga'].lower() in list(raaga_ids.keys()):
-    #         krithi['raaga_id'] = raaga_ids[krithi['raaga'].lower()]
-    #     else:
-    #         if krithi['raaga'] not in unknown_raagas:
-    #             unknown_raagas.append(krithi['raaga'])
-    #
-    # print(unknown_raagas)
+    krithis = get_json(KRITHIS_JSON_PATH)
+    raaga_ids = get_raaga_ids()
 
-    raga_aliases = [
+    unknown_raagas = []
+
+    for krithi in krithis:
+        if krithi['raaga'].lower() in list(raaga_ids.keys()):
+            krithi['raaga_id'] = raaga_ids[krithi['raaga'].lower()]
+        else:
+            if (krithi['raaga'], 0) not in unknown_raagas:
+                unknown_raagas.append((krithi['raaga'], 0))
+
+    print(unknown_raagas)
+
+    raga_aliases_a = [
         ("aabheri", 136),
         ('aabhOgi', 137),
         ('ahIrbhairav', 118),
-        ('aahiri', 73)
+        ('aahiri', 73),
+        ('aahir bhairav', 118),
+        ('Ananda', 81),
+        ('Anandabhairavi', 121),
+        ('aananda bhairavi', 121),
+        ('Ananda bhairavi', 121),
+        ('aanandabhairavi', 121),
+        ('Anndabhairavi', 121),
+        ('AndOLikA', 138),
+        ('aandOLikaa', 138),
+        ('aarabi', 227),
+        ('Arabhi/hamsAnandi', 227),
+        ('amrtavAhini', 120),
+        ('amritavaahini', 120),
+        ('amrtavarSiNi', 286),
+        ('amritavarshini', 286),
+        ('amrtavarSaNi', 286),
+        ('amrtavarSaNI', 286),
+        ('ArdradEshi', 82),
+        ('asaavEri', 74),
+        ('aThANA', 228),
+        ('aThaaNaa', 228),
+        ('aThAna', 228),
+        ('AThANA', 228),
+        ('aThANa', 228)
     ]
 
-    for alias in raga_aliases:
+    for alias in raga_aliases_a:
         update_raga_json_alias(alias[1], alias[0])
