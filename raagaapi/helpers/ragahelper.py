@@ -48,8 +48,8 @@ class RagaHelper:
         return semitones
 
     # Returns a list of swaras that a list of semitone intervals represent
-    # eg. [0, 2, 4, 7, 9] => [S, R2, G1, G3, P, D2, N1]
-    # returns multiple swaras for certain semitones where overlaps ie. 2 => R2, G1
+    # eg. [0, 2, 4, 7, 9] => [S, R2, G3, P, D2]
+    # returns single swara for certain semitones where overlaps ie. 2 => R2, G1
     def get_swara_from_semitones(self, semitones):
         swaras = []
         for semitone in semitones:

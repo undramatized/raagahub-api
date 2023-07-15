@@ -8,7 +8,7 @@ django.setup()
 
 from raagaapi.models import Raga
 
-KRITHIS_JSON_PATH = '../fixtures/krithis.json'
+KRITHIS_JSON_PATH = '../fixtures/krithis_a.json'
 MELAKARTHA_JSON_PATH = '../fixtures/melakarta_ragas.json'
 JANYA_JSON_PATH = '../fixtures/janya_ragas.json'
 

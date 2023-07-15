@@ -11,7 +11,7 @@ from bs4 import BeautifulSoup, Comment, NavigableString
 
 URL_FORMAT = 'https://www.karnatik.com/ragas{letter}.shtml'
 KRITHI_URL = 'https://www.karnatik.com/{krithi_id}'
-JSON_PATH = '../fixtures/krithis.json'
+JSON_PATH = '../fixtures/krithis_a.json'
 
 def simple_get(url):
     """
